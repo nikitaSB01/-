@@ -6,7 +6,7 @@ test("lifePlayer", () => {
   expect(result).toBe("healthy");
 });
 test("lifePlayer", () => {
-  const player = { name: "Маг", health: 40 };
+  const player = { name: "Маг", health: 30 };
   const result = lifePlayer(player);
   expect(result).toBe("wounded");
 });
