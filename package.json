@@ -26,6 +26,7 @@
     "babel-preset-airbnb": "^5.0.0",
     "css-loader": "^6.9.1",
     "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-jest": "^27.6.3",
     "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
