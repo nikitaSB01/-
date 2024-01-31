@@ -1,9 +1,11 @@
-export function lifePlayer(player) {
+export default function lifePlayer(player) {
+  let result = '';
   if (player.health > 50) {
-    return "healthy";
-  } else if (player.health >= 15 && player.health < 50) {
-    return "wounded";
-  } else if (player.health < 15) {
-    return "critical";
+    result = 'healthy';
+  } if (player.health >= 15 && player.health < 50) {
+    result = 'wounded';
+  } if (player.health < 15) {
+    result = 'critical';
   }
+  return result;
 }
